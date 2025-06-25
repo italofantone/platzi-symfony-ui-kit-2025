@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block body %}
+    <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-4 flex flex-col lg:flex-row lg:justify-between mb-8">
+        <div class="flex gap-4">
+            {{ include('pages/_logo.html.twig') }}
+
+            <div>
+                <div class="rounded-2xl py-2 px-4 inline-flex gap-3 justify-center items-center bg-gray-800">
+                    <div class="rounded-full h-2 w-2 bg-gray-900"></div>
+                    <p class="uppercase text-xs">5 comentarios</p>
+                </div>
+                
+                <h4 class="text-xl pt-1 font-semibold">
+                    <a
+                        class="text-gray-300 hover:text-gray-200"
+                        href="#"
+                    >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    </a>
+                </h4>
+
+                <p class="text-xs text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem, voluptatum, quia, quos voluptates quas cumque doloribus quisquam, quidem, voluptatum, quia, quos voluptates quas cumque doloribus.
+                </p>
+            </div>
+        </div>
+
+        <div class="lg:border-l lg:border-gray-800 lg:p-4">
+            <p class="text-gray-400 text-xs">Usuario</p>
+            <p class="text-xl truncate">
+                John Doe
+            </p>
+        </div>
+    </div>
+{% endblock %}
