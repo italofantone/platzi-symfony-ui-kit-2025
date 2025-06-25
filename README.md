@@ -2,7 +2,7 @@
 
 ## Inspiración
 
-Este proyecto se usó Tailwind CSS: [https://tailwindcss.com/plus/ui-blocks](https://tailwindcss.com/plus/ui-blocks?ref=italofantone)
+Este proyecto se usó Tailwind CSS: [https://tailwindcss.com](https://tailwindcss.com?ref=italofantone)
 
 Si quieres seguir mi trabajo, puedes visitar mi perfil de **GitHub**: [https://github.com/italofantone](https://github.com/italofantone)
 
