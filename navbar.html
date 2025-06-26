@@ -1,0 +1,11 @@
+<div class="max-w-5xl mx-auto px-4 py-4 flex gap-4 items-center justify-end">
+    {% if app.user %}
+        <span class="text-sm font-semibold">{{ app.user.userIdentifier }}</span> 
+
+        <a href="{{ path('app_logout') }}" class="text-sm font-semibold">Logout</a>
+    {% else %}            
+        <a href="{{ path('app_register') }}" class="text-sm font-semibold">Crea tu cuenta</a>
+                            
+        <a href="{{ path('app_login') }}" class="text-sm font-semibold">Log in &rarr;</a>
+    {% endif %}        
+</div>
