@@ -1,6 +1,8 @@
 <div class="max-w-5xl mx-auto px-4 py-4 flex gap-4 items-center justify-end">
+    <a href="{{ path('home') }}" class="text-sm font-semibold">Home</a>
+
     {% if app.user %}
-        <span class="text-sm font-semibold">{{ app.user.userIdentifier }}</span> 
+        <span class="text-sm font-semibold">{{ app.user.name }}</span> 
 
         <a href="#" class="text-sm font-semibold">Crea un Snippet</a>
 
