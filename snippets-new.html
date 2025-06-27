@@ -33,8 +33,6 @@
             <label class="block text-sm font-semibold mb-1">Código</label>
             <textarea name="code" class="block w-full rounded-md bg-white px-4 py-2 text-gray-900" rows="6">{{ data.code ?? '' }}</textarea>
         </div>
-        
-        <input type="hidden" name="_csrf_token" data-controller="csrf-protection" value="{{ csrf_token('authenticate') }}">
 
         <div class="mt-10">
             <button type="submit" class="block w-full rounded-md bg-indigo-600 px-4 py-2 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-500">Crear</button>
