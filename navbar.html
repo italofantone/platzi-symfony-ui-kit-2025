@@ -2,6 +2,8 @@
     {% if app.user %}
         <span class="text-sm font-semibold">{{ app.user.userIdentifier }}</span> 
 
+        <a href="#" class="text-sm font-semibold">Crea un Snippet</a>
+
         <a href="{{ path('app_logout') }}" class="text-sm font-semibold">Logout</a>
     {% else %}            
         <a href="{{ path('app_register') }}" class="text-sm font-semibold">Crea tu cuenta</a>
