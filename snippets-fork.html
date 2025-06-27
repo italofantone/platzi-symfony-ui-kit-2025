@@ -1,0 +1,7 @@
+{% if app.user %}
+    <form action="{{ path('app_snippet_fork', { id: snippet.id }) }}" method="POST" class="mb-8" onsubmit="return confirm('¿Estás seguro de que quieres hacer un fork de este snippet?');">
+        <button type="submit" class="rounded-2xl py-1 px-4 bg-green-800 text-xs text-white">
+            Hacer Fork
+        </button>
+    </form>
+{% endif %}
